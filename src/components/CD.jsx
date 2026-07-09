@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef } from "react";
-<img src={`${import.meta.env.BASE_URL}${image.replace('/', '')}`} alt={alt} className="w-48 h-48 absolute rounded-full top-1/2 left-1/2 
-transform -translate-x-1/2 -translate-y-1/2 border-4 border-gray-700"/>
+
 
 function CDPlayer({ src, image, alt, song, isPlaying, onPlay, onStop }) {
     const musicRef = useRef(null);

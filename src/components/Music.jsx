@@ -2,13 +2,15 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import CDPlayer from "./CD";
 
+const withBasePath = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
+
 const tracks = [
-    { src: "/feellike.mp3", image: "/aaron.png", alt: "Aaron May", song: "Feel Like" },
-    { src: "/ASAP.mp3", image: "/ASAP.jpg", alt: "A$AP Rocky", song: "Houston Old Head" },
-    { src: "tension.mp3", image: "/jaxon.png", alt: "Jaxon Mune", song: "Tension" },
-    { src: "/nophotos.wav", image: "/nophotos.png", alt: "Don Toliver", song: "No Photos" },
-    { src: "/gambino.wav", image: "/summer.png", alt: "Childish Gambino", song: "Feel Like Summer" },
-    { src: "/menitrust.wav", image: "/lauren.png", alt: "Men I Trust", song: "Lauren" },
+    { src: withBasePath("feellike.mp3"), image: withBasePath("aaron.png"), alt: "Aaron May", song: "Feel Like" },
+    { src: withBasePath("ASAP.mp3"), image: withBasePath("ASAP.jpg"), alt: "A$AP Rocky", song: "Houston Old Head" },
+    { src: withBasePath("tension.mp3"), image: withBasePath("jaxon.png"), alt: "Jaxon Mune", song: "Tension" },
+    { src: withBasePath("nophotos.wav"), image: withBasePath("nophotos.png"), alt: "Don Toliver", song: "No Photos" },
+    { src: withBasePath("gambino.wav"), image: withBasePath("summer.png"), alt: "Childish Gambino", song: "Feel Like Summer" },
+    { src: withBasePath("menitrust.wav"), image: withBasePath("lauren.png"), alt: "Men I Trust", song: "Lauren" },
 ];
 
 function Music() {
