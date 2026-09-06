@@ -4,7 +4,7 @@ import { useState} from 'react';
 
 
 function Experience() {
-  const [selectedCompany, setSelectedCompany] = useState('State Street');
+  const [selectedCompany, setSelectedCompany] = useState('Werfen');
 
   return (
     <section id="experience" className=" flex flex-col mt-40 justify-center items-start px-4 max-w-5xl mx-auto">
@@ -191,7 +191,7 @@ function Experience() {
         {selectedCompany === 'Werfen' && (
           <div className="pl-6">
           <h3><span className="text-blue-300 text-2xl">Werfen</span></h3>
-          <p className="italic mb-2 text-sm">Software Engineer | JUNE 2026 - PRESENT | Bedford, MA</p>
+          <p className="italic mb-2 text-sm">Software Engineer | JUNE 2026 - AUG 2026 | Bedford, MA</p>
           <ul className="space-y-0.1 ml-5">
             <motion.li 
                 className="flex items-center gap-6"
@@ -202,8 +202,8 @@ function Experience() {
               >
               <span className="text-blue-300">»</span>
               <span className="leading-relaxed" style={{ fontSize: '0.8rem' }}>
-              Developing automated test scripts using Python to replace manual 
-              SAP testing, improving testing efficiency and coverage
+              Developed optimization tool, using Raspberry Pi and Python to 
+              automate GEM 5000 testing, reducing manual effort by 40%. 
               </span>
             </motion.li>
 
@@ -216,8 +216,8 @@ function Experience() {
               >
               <span className="text-blue-300">»</span>
               <span className="leading-relaxed" style={{ fontSize: '0.8rem' }}>
-              Conducting manual functional and regression testing across 
-              SAP-based medical systems ensuring regulatory compliance. 
+              Implemented computer vision algorithms for state recognition, 
+              enabling 3+ hours of unattended diagnostic system operation. 
               </span>
             </motion.li>
 
@@ -230,8 +230,8 @@ function Experience() {
               >
               <span className="text-blue-300">»</span>
               <span className="leading-relaxed" style={{ fontSize: '0.8rem' }}>
-              Collaborated with QA and development teams to triage 
-              defects and validate fixes through ServiceNow workflows. 
+              Developed automated end-to-end UI test scripts using 
+              Playwright, improving overall test coverage by 30%.  
               </span>
             </motion.li>
 
@@ -244,8 +244,8 @@ function Experience() {
               >
               <span className="text-blue-300">»</span>
               <span className="leading-relaxed" style={{ fontSize: '0.8rem' }}>
-              Executing 8+ ServiceNow tickets weekly by validating 
-              SAP transaction workflows and documenting software defects. 
+              Executed 5+ ServiceNow tickets weekly by validating SAP 
+              transaction workflows and documenting software defects. 
               </span>
             </motion.li>  
           </ul>

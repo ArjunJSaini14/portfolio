@@ -37,7 +37,7 @@ function Bio() {
             <br /><br />
             Technologies I am currently working with:
             <br></br>
-            <span className="text-blue-300 font-bold"> Python, Java, JavaScript, React, Django </span>
+            <span className="text-blue-300 font-bold"> Python, C++, Java, JavaScript, React, Django </span>
             <br></br>
             <br></br>
 

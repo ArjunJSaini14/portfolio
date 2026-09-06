@@ -20,8 +20,8 @@ const Navbar = () => {
 
         {/* Right Section: Social Media Icons */}
         <div className="flex-1 flex justify-end items-center">
-          <a href="https://drive.google.com/file/d/1oAJGKvEY1I5Px-scsR1_hy6cyfo-YQGA/view?usp=drive_link">
-            <img src="resume.png" alt="Resume" className="h-5.5 w-7 invert"/>
+          <a href="https://drive.google.com/file/d/1oAJGKvEY1I5Px-scsR1_hy6cyfo-YQGA/view?usp=sharing">
+            <img src="document.png" alt="Resume" className="h-5 w-6 invert"/>
           </a>
           <a href="https://www.linkedin.com/in/arjunjsaini">
             <img src="linkedin.png" alt="LinkedIn" className="h-6 w-6 mx-3 invert"/>
